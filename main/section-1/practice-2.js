@@ -1,5 +1,6 @@
 'use strict';
 
 module.exports = function collectSameElements(collectionA, collectionB) {
-  return '实现练习要求，并改写该行代码。';
+  let result = collectionA.filter(item => collectionB[0].includes(item));
+  return result;
 }
